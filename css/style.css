@@ -2239,7 +2239,7 @@ pre .javascript .function {
   overflow-y: scroll;
 }
 #viewer-box .viewer-box-l .viewer-box-wrap {
-  margin: 2em 10px 0px 2em;
+  margin: 2em 1em 0em 2em;
 }
 #viewer-box .viewer-box-l .viewer-title {
   line-height: 32px;
