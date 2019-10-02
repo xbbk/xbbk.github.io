@@ -2233,8 +2233,8 @@ pre .javascript .function {
 }
 #viewer-box .viewer-box-l {
   background: rgba(20,20,20,0.9);
-  width: 80%;
-  height: 100%;
+  width: 95%;
+  height: 14.5%;
   float: left;
   overflow-y: scroll;
 }
