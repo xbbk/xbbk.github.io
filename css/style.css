@@ -2234,12 +2234,12 @@ pre .javascript .function {
 #viewer-box .viewer-box-l {
   background: rgba(20,20,20,0.9);
   width: 95%;
-  height: 14.5%;
+  height: 25%;
   float: left;
   overflow-y: scroll;
 }
 #viewer-box .viewer-box-l .viewer-box-wrap {
-  margin: 2em 1em 0em 2em;
+  margin: 20px 10px 0px 20px;
 }
 #viewer-box .viewer-box-l .viewer-title {
   line-height: 32px;
