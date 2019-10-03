@@ -2236,7 +2236,6 @@ pre .javascript .function {
   width: 25%;
   height: 100%;
   float: left;
-  overflow-y: scroll;
 }
 #viewer-box .viewer-box-l .viewer-box-wrap {
   margin: 15px 5px 0px 15px;
