@@ -35,8 +35,8 @@
 })(jQuery);
 $(function(){
     $.fn.snow({ 
-        minSize: 5, /* 定义雪花最小尺寸 */
-        maxSize: 50,/* 定义雪花最大尺寸 */
+        minSize: 3, /* 定义雪花最小尺寸 */
+        maxSize: 6,/* 定义雪花最大尺寸 */
         newOn: 150  /* 定义密集程度，数字越小越密集 */
     });
 });
