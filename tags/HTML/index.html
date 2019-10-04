@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/tags/HTML/index.html">
+<meta property="og:url" content="https://wtnl.xyz/tags/HTML/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
@@ -17,6 +17,11 @@
     <link rel="icon" href="/favicon.png">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+	<link rel="stylesheet" type="text/css" href="/./avatarrotation.css">
+
+
   <script src="https://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
   
 </head></html>
@@ -51,20 +56,6 @@
 						</div>
 						
 						
-  	  		<div class="aboutme-wrap">
-				<div style="display:;">
-					<script type="text/javascript" src="https://api.lwl12.com/hitokoto/v1?encode=js&charset=utf-8"></script>
-					<p style="margin:0 20px 0 20px;">
-						<span id="lwlhitokoto">
-							<script>
-								lwlhitokoto();
-							</script>
-						</span>
-					</p>
-					<p id="js-aboutme" style="margin:0 20px 0 20px;">点最右边</P>
-				</div>
-			</div>
-  	  	
 
 					</div>
 					
@@ -75,8 +66,6 @@
 						<li>菜单</li>
 						<li>标签</li>
 						
-						
-						<li>提示:</li>
 						
 					</ul>
 				</div>
@@ -102,9 +91,9 @@
 					<nav class="header-nav">
 						<div class="social">
 							
-								<a class="github" target="_blank" href="http://github.com/voidking" title="github">github</a>
+								<a class="github" target="_blank" href="http://github.com/voidking" title="github" rel="external nofollow noopener noreferrer">github</a>
 					        
-								<a class="weibo" target="_blank" href="http://weibo.com/378920304" title="weibo">weibo</a>
+								<a class="weibo" target="_blank" href="http://weibo.com/378920304" title="weibo" rel="external nofollow noopener noreferrer">weibo</a>
 					        
 								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
 					        
@@ -122,12 +111,6 @@
 				
 				
 
-				
-				
-				<section class="switch-part switch-part3">
-				
-					<div id="js-aboutme">点最右边</div>
-				</section>
 				
 				
 			</div>
@@ -167,9 +150,9 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="http://github.com/voidking" title="github">github</a>
+						<a class="github" target="_blank" href="http://github.com/voidking" title="github" rel="external nofollow noopener noreferrer">github</a>
 			        
-						<a class="weibo" target="_blank" href="http://weibo.com/378920304" title="weibo">weibo</a>
+						<a class="weibo" target="_blank" href="http://weibo.com/378920304" title="weibo" rel="external nofollow noopener noreferrer">weibo</a>
 			        
 						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
 			        
@@ -195,14 +178,18 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
-	      	<a href="/2019/10/01/测试阶段/" class="archive-article-date">
+	      	
+
+<a href="/测试阶段.html" class="archive-article-date">
   	<time datetime="2019-10-01T13:50:07.000Z" itemprop="datePublished">Oct 1</time>
+
 </a>
+
         </div>
     	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/01/测试阶段/" target="_blank">
+      <a class="archive-article-title" href="/测试阶段.html" target="_blank">
       测试阶段
       </a>
     </h1>
@@ -233,35 +220,42 @@
       <footer id="footer">
   <div class="outer">
     <div id="footer-info">
-    	<div class="footer-left">
+    	<div class="footer-left" <span id="timeDate">载入天数...<span id="times">载入时分秒...</span>
+<script>
+	var now = new Date(); 
+	function createtime() { 
+		var grt= new Date("11/23/2018 20:00:00");//此处修改你的建站时间或者网站上线时间 
+		now.setTime(now.getTime()+250); 
+		days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+		hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+		if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+		mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+		seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+		snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+		document.getElementById("timeDate").innerHTML = "👮本站已安全运行 "+dnum+" 天 "; 
+		document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+	} 
+	setInterval("createtime()",250);
+</script>>
     		&copy; 2019 John Doe
     	</div>
       	<div class="footer-right">
-      		<p>
-            <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten    
-            </p>
+    
+    
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+      		<span id="busuanzi_container_site_pv">
+                📊本站访问量：<span id="busuanzi_value_site_pv"></span>次
+            </span>
+            <span class="post-meta-divider">|</span>
+            <span id="busuanzi_container_site_uv">
+                📈本站访客数：<span id="busuanzi_value_site_uv"></span>人
+            </span>
+    
+    
       	</div>
     </div>
-<span class="post-count">全文字数：123</span>
   </div>
 
-<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
-<script>
-    var now = new Date(); 
-    function createtime() { 
-        var grt= new Date("08/10/2018 17:38:00");//在此处修改你的建站时间
-        now.setTime(now.getTime()+250); 
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-    } 
-setInterval("createtime()",250);
-</script>
 </footer>
     </div>
     
@@ -291,4 +285,3 @@ var _hmt = _hmt || [];
 </body>
 <!--单击显示文字-->
 <script type="text/javascript" src="/js/click_show_text.js"></script>
-</html>
