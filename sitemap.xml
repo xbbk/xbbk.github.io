@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wtnl.xyz/message/index.html</loc>
+    
+    <lastmod>2019-10-04T08:34:29.254Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wtnl.xyz/categories/index.html</loc>
+    
+    <lastmod>2019-10-04T05:17:06.390Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wtnl.xyz/hello-world.html</loc>
     
     <lastmod>2019-10-04T04:50:11.248Z</lastmod>
@@ -9,23 +23,16 @@
   </url>
   
   <url>
-    <loc>https://wtnl.xyz/n%E5%95%8A%E9%BA%BB%E7%97%B9.html</loc>
-    
-    <lastmod>2019-10-04T04:50:11.245Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wtnl.xyz/%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5.html</loc>
-    
-    <lastmod>2019-10-04T00:01:08.168Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wtnl.xyz/%E4%B8%96%E7%95%8C%E9%82%A3%E4%B9%88%E5%A4%A7%EF%BC%8C%E6%88%91%E6%83%B3%E5%8E%BB%E7%9C%8B%E7%9C%8B.html</loc>
     
     <lastmod>2019-09-30T10:19:54.251Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wtnl.xyz/about/index.html</loc>
+    
+    <lastmod>2019-09-27T15:18:54.808Z</lastmod>
     
   </url>
   
