@@ -335,27 +335,29 @@
 
 
 
-<div class="livere">
-    <!-- 来必力City版安装代码 -->
-    <div id="lv-container" data-id="city" data-uid="MTAyMC8zODU3Mi8xNTEwMA==">
-        <script type="text/javascript">
-       (function(d, s) {
-           var j, e = d.getElementsByTagName(s)[0];
+      <div class="valine_comment"></div>
+<!--载入js，在</body>之前插入即可-->
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!--Valine 的核心代码库-->
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+  var notify = 'true' == true ? true : false;
+  var verify = 'false' == true ? true : false;
+  new Valine({
+      // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+      av: AV,
+      el: '.valine_comment',
+      emoticon_url: 'https://cloud.panjunwen.com/alu',
+      emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
+      app_id: 'GJkX3E1KjhnfAULH1lk3HYRo-gzGzoHsz',
+      app_key: 'H8YaDwkciXdrFnDrPHqCPK0S',
+      placeholder: '有话要说？'
+    });
+</script>
 
-           if (typeof LivereTower === 'function') { return; }
-
-           j = d.createElement(s);
-           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-           j.async = true;
-
-           e.parentNode.insertBefore(j, e);
-       })(document, 'script');
-        </script>
-    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
-    </div>
-    <!-- City版安装代码已完成 -->
-</div>
-
+    
+ 
 
 
 
@@ -388,11 +390,11 @@
     
             <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
       		<span id="busuanzi_container_site_pv">
-                📊本站访问量：<span id="busuanzi_value_site_pv"></span>次
+                📊本站访问量:<span id="busuanzi_value_site_pv"></span>次
             </span>
             <span class="post-meta-divider">|</span>
             <span id="busuanzi_container_site_uv">
-                📈本站访客数：<span id="busuanzi_value_site_uv"></span>人
+                📈本站访客数:<span id="busuanzi_value_site_uv"></span>人
             </span>
     
     
